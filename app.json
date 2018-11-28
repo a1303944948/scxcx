@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/indexs/indexs",
+    "pages/byz/byz"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0D6FB8",
+    "navigationBarTitleText": "嘉丰机电有限公司",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#303030",
+    "selectedColor": "#0D6FB8",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "双子座",
+      "iconPath": "image/szz.png",
+      "selectedIconPath": "image/szza.png"
+    },{
+      "pagePath": "pages/indexs/indexs",
+      "text": "金牛座",
+      "iconPath": "image/jnz.png",
+      "selectedIconPath": "image/jnza.png"
+    },{
+      "pagePath": "pages/byz/byz",
+      "text": "白羊座",
+      "iconPath": "image/byz.png",
+      "selectedIconPath": "image/byza.png"
+    }]
+  }
+}

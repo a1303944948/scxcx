@@ -1,0 +1,7 @@
+<!--pages/indexs/indexs.wxml-->
+<view class="home">
+  <video controls="{{controls}}" enable-progress-gesture="{{enable}}" autoplay="true" loop="true" src='{{video}}'></video>
+  <image class="home_foot" src='{{image_body}}'></image>
+  <image wx:for="{{image_foot}}" wx:for-item="list" class="home_foota" bindtap='clickMe' data-index="{{index}}" data-image="{{image_foot}}" src='{{list}}'></image>
+  <image class="foot" style="display: {{block}};" animation="{{animationData}}" src='../../image/gd.svg'></image>
+</view>
